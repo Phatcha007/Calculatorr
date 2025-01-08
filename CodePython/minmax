@@ -1,0 +1,9 @@
+A = int(input())
+B = int(input())
+
+if A > B :
+  print ("A")
+if B > A :
+  print ("B")
+elif A == B and B == A :
+  print("AB")
